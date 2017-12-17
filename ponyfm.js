@@ -70,7 +70,7 @@ function search (lst, inp) {
         const _rx = new RegExp(w, 'i');
         if ( x.title.match(_rx)           !== null
           || x.user.name.match(_rx)       !== null
-          || (x.genre && genres[x.genre.id].match(rx) !== null)) cnt++;
+          || (x.genre && genres[x.genre.id].match(_rx) !== null)) cnt++;
       }
 
       any = cnt >= ws.length;
