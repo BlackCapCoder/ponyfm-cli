@@ -5,3 +5,9 @@ This is a quick and dirty cli client for [pony.fm](https://pony.fm). It is hardc
 ### But why?
 
 I strongly dislike GUIs. They are generally slower to use and assume mouse-based interaction. Also, Chrome is pissing memory all over the floor, and uses half a core to render the trackbar - yuck!
+
+----------------
+
+![](screenshot.jpg)
+
+Type a number to play that song. Type anything else to search titles, artists and genres.
